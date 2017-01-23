@@ -24,13 +24,15 @@ public static void main(String[] args) {
 		
 		while ((numIntentos < 5) && (numPedido != numAdivinar));
 		
-			System.out.println("Has perdido!!");
+			if  (numPedido != numAdivinar)	
+			{
+				System.out.println("Has perdido!!");
+			}
 		}
-		
 		
 		//generar numero aleatorio
 		//pedir nº
-		//calcular si nº es > < =
+		//comparar si nº es > < = 
 		//responder al usuario
 		
 	
@@ -85,7 +87,7 @@ public static void main(String[] args) {
 			else
 			
 			{
-				System.out.println("Correcto!");
+				System.out.println("Correcto, ¡Enhorabuena!");
 			}
 		
 	}
