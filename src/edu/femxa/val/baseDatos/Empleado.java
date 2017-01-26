@@ -27,6 +27,10 @@ public class Empleado
 		this.depart_nombre = depart_nombre;
 	}
 	
+	public Empleado(int id2, String nombre2, int salario2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
