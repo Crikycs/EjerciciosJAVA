@@ -37,6 +37,7 @@ public class DAOEmployees {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			throw e;
 		}
 		
 		finally{
